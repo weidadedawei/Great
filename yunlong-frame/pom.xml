@@ -2,13 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.yunlong</groupId>
+        <artifactId>yunlong</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
-    <groupId>cn.yunloong</groupId>
     <artifactId>yunlong-frame</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>yunlong-frame</name>
+    <name>${project.artifactId}</name>
     <description>YunLong Frame project for Spring Boot</description>
 
 
@@ -24,6 +27,7 @@
         <lombok.version>1.18.24</lombok.version>
         <mybaits.plus.version>3.5.1</mybaits.plus.version>
         <druid.version>1.2.14</druid.version>
+        <redisson.version>3.17.7</redisson.version>
     </properties>
 
     <repositories>
@@ -54,7 +58,12 @@
 
     <modules>
         <module>yunlong-frame-core</module>
+        <module>yunlong-frame-cache</module>
         <module>yunlong-frame-datasource</module>
+        <module>yunlong-frame-log</module>
+        <module>yunlong-frame-swagger</module>
+        <module>yunlong-frame-web</module>
+        <module>yunlong-frame-stream</module>
     </modules>
 
 </project>
