@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.yunlong</groupId>
+        <artifactId>yunlong-frame</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>yunlong-frame-web</artifactId>
+
+    <name>${project.artifactId}</name>
+    <description>YunLong Frame Web project for Spring Boot</description>
+
+    <dependencies>
+        <!-- 实现对 SpringMVC 的自动化配置，默认就内嵌了Tomcat 容器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!---AOP切面编程-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+<!--        &lt;!&ndash;swagger 依赖&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>cn.yunlong</groupId>-->
+<!--            <artifactId>yunlong-frame-swagger</artifactId>-->
+<!--            <version>${yunlong.version}</version>-->
+<!--        </dependency>-->
+
+        <!--swagger 依赖-->
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.22</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.yunlong</groupId>
+            <artifactId>yunlong-frame-core</artifactId>
+            <version>${yunlong.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
