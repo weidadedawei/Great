@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.yunlong</groupId>
+        <artifactId>yunlong-frame</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>yunlong-frame-security</artifactId>
+
+    <name>${project.artifactId}</name>
+    <description>用户的认证、权限的校验</description>
+
+    <dependencies>
+        <!---web 公共模块-->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-frame-web</artifactId>
+        </dependency>
+
+        <!--缓存模块-->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-frame-cache</artifactId>
+        </dependency>
+
+        <!-- 安全模块 -->
+        <dependency>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+        </dependency>
+
+        <!-- alibaba TTL -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+        </dependency>
+
+        <!-- system api -->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-system-api</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

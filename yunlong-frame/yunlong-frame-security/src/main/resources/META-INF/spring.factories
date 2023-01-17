@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.yunlong.frame.security.service.YunLongUserDetailsServiceImpl,\
+    com.yunlong.frame.security.service.YunLongClientDetailsServiceImpl,\
+    com.yunlong.frame.security.config.SecurityCommonAutoConfiguration,\
+    com.yunlong.frame.security.aspect.YunLongSecurityInnerAspect

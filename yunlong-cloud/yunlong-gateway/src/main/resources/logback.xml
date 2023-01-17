@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
     <!-- 日志存放路径 -->
-    <property name="log.path" value="logs/${project.artifactId}" />
+    <property name="log.path" value="logs/${project.artifactId}"/>
 
     <!-- 彩色日志格式 -->
     <property name="CONSOLE_LOG_PATTERN"
@@ -101,18 +101,18 @@
     </logger>
 
     <!-- 系统模块日志级别控制  -->
-    <logger name="cn.yunlong" level="debug" />
+    <logger name="com.yunlong" level="debug"/>
     <!-- Spring日志级别控制  -->
-    <logger name="org.springframework" level="warn" />
+    <logger name="org.springframework" level="warn"/>
 
     <root level="debug">
-        <appender-ref ref="console" />
+        <appender-ref ref="console"/>
     </root>
 
     <!--系统操作日志-->
     <root level="debug">
-        <appender-ref ref="file_debug" />
-        <appender-ref ref="file_info" />
-        <appender-ref ref="file_error" />
+        <appender-ref ref="file_debug"/>
+        <appender-ref ref="file_info"/>
+        <appender-ref ref="file_error"/>
     </root>
 </configuration>

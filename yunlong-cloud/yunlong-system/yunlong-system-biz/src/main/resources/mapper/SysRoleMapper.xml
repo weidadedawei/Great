@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yunlong.system.biz.mapper.SysRoleMapper">
+
+    <resultMap id="SysRoleMap" type="com.yunlong.system.api.entity.SysRole">
+        <id property="roleId" column="role_id"/>
+        <result property="roleName" column="role_name" jdbcType="VARCHAR"/>
+        <result property="roleCode" column="role_code" jdbcType="VARCHAR"/>
+        <result property="roleDesc" column="role_desc" jdbcType="VARCHAR"/>
+        <result property="dsType" column="ds_type" jdbcType="VARCHAR"/>
+        <result property="dsScope" column="ds_scope" jdbcType="VARCHAR"/>
+        <result property="creator" column="creator" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updater" column="updater" jdbcType="VARCHAR"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="delFlag" column="del_flag" jdbcType="VARCHAR"/>
+        <result property="tenantId" column="tenant_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+
+    <!-- 通过用户ID，查询角色信息-->
+    <select id="listRolesByUserId" resultMap="SysRoleMap">
+        SELECT sys_role.role_id,
+               sys_role.role_name,
+               sys_role.role_code,
+               sys_role.role_desc,
+               sys_role.ds_type,
+               sys_role.ds_scope,
+               sys_role.create_time,
+               sys_role.update_time,
+               sys_role.del_flag
+        FROM sys_role,
+             sys_user_role
+        WHERE sys_role.role_id = sys_user_role.role_id
+          AND sys_role.del_flag = '0'
+          and sys_user_role.user_id = #{userId}
+    </select>
+</mapper>

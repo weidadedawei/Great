@@ -1,0 +1,24 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    # 应用名称
+    name: @artifactId@
+  profiles:
+    # 环境配置
+    active: @profiles.active@
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: ${NACOS_HOST:yunlong-register}:${NACOS_PORT:8848}
+      config:
+        # 配置中心地址
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+  config:
+    import:
+      # 共享配置
+      - optional:nacos:application-@profiles.active@.yaml
+      - optional:nacos:${spring.application.name}-@profiles.active@.yaml
+

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>cn.yunlong</groupId>
+        <groupId>com.yunlong</groupId>
         <artifactId>yunlong</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>yunlong-frame</artifactId>
@@ -22,12 +23,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.test.skip>true</maven.test.skip>
-        <hutool.version>5.8.9</hutool.version>
-        <guava.version>31.1-jre</guava.version>
-        <lombok.version>1.18.24</lombok.version>
-        <mybaits.plus.version>3.5.1</mybaits.plus.version>
-        <druid.version>1.2.14</druid.version>
-        <redisson.version>3.17.7</redisson.version>
     </properties>
 
     <repositories>
@@ -48,9 +43,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>UTF-8</encoding>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
         </plugins>
@@ -59,11 +54,13 @@
     <modules>
         <module>yunlong-frame-core</module>
         <module>yunlong-frame-cache</module>
-        <module>yunlong-frame-datasource</module>
+        <module>yunlong-frame-mybatis</module>
         <module>yunlong-frame-log</module>
         <module>yunlong-frame-swagger</module>
         <module>yunlong-frame-web</module>
         <module>yunlong-frame-stream</module>
+        <module>yunlong-frame-security</module>
+        <module>yunlong-frame-feign</module>
     </modules>
 
 </project>

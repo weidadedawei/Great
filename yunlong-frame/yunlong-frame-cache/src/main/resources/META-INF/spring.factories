@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.yunlong.frame.cache.config.YunLongCacheAutoConfiguration,\
+    com.yunlong.frame.cache.config.YunLongRedisAutoConfiguration

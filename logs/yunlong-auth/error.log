@@ -1,0 +1,180 @@
+2023-01-17 17:19:19,383 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:22:25,997 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:31:30,109 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:35:39,675 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:36:26,550 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:38:12,736 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:38:47,523 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:39:06,279 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:39:53,937 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 17:48:31,352 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 19:59:31,129 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+
+2023-01-17 20:03:47,539 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.yunlong.frame.security.config.ResourceServiceConfig required a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.yunlong.frame.security.compontent.PermitAllUrlResolver' in your configuration.
+

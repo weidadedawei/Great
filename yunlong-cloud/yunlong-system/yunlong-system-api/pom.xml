@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.yunlong</groupId>
+        <artifactId>yunlong-system</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <groupId>com.yunlong</groupId>
+    <artifactId>yunlong-system-api</artifactId>
+    <name>${project.artifactId}</name>
+
+    <description>YunLong System project for Spring Boot</description>
+
+    <dependencies>
+        <!-- 框架核心依赖-->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-frame-core</artifactId>
+        </dependency>
+
+        <!--mybatis plus extension,包含了mybatis plus core-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <!--			<scope>provided</scope> &lt;!&ndash; 设置为 provided，只有 entity 使用到 &ndash;&gt;-->
+        </dependency>
+
+        <!-- Swagger 文档 -->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-frame-swagger</artifactId>
+        </dependency>
+
+        <!--feign 工具类-->
+        <dependency>
+            <groupId>com.yunlong</groupId>
+            <artifactId>yunlong-frame-feign</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- 编译插件 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>

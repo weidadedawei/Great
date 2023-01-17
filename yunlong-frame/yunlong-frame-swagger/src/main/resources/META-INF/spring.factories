@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    cn.yunlong.frame.swagger.config.SwaggerConfiguration
+    com.yunlong.frame.swagger.config.SwaggerConfiguration

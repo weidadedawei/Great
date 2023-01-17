@@ -1,7 +1,9 @@
 # 参考
+
 [Spring Cloud Stream Kafka Binder 参考指南](https://cloud.spring.io/spring-cloud-stream-binder-kafka/spring-cloud-stream-binder-kafka.html)
 
 # 配置
+
 ```yaml
 spring:
   cloud:

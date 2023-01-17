@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.yunlong.frame.feign.config.YunLongFeignAutoConfiguration
